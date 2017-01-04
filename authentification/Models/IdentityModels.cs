@@ -5,7 +5,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System;
 
-namespace IdentitySample.Models
+namespace authentification.Models
 {
     public class ApplicationUserLogin : IdentityUserLogin<int> { }
     public class ApplicationUserClaim : IdentityUserClaim<int> { }

@@ -212,7 +212,10 @@
       <DependentUpon>201701041401326_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\context\EntitiesConfigurations.cs" />
+    <Compile Include="Models\context\IdentityContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Orders.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
